@@ -85,21 +85,14 @@
 }
 
 .imageMobile {
-  width: 50%;
-  height: 500px;
-  background: #000E1B;
-  display: flex;
-  justify-content: center;
   align-items: center;
 }
 .imageMobile .frame2 {
   height: 400px;
-  transform: rotate(12.68deg);
 }
 
 .frame3 {
   height: 400px;
-  transform: rotate(12.68deg);
 }
 
 .aboutFlex {

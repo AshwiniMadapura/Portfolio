@@ -94,7 +94,7 @@
 }
 .imageMobile .frame2 {
   height: 400px;
-  transform: rotate(12.68deg);
+  /* transform: rotate(12.68deg); */
 }
 
 .aboutFlex {
