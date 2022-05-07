@@ -85,6 +85,11 @@
 }
 
 .imageMobile {
+  width: 50%;
+  height: 500px;
+  background: #000E1B;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 .imageMobile .frame2 {
@@ -178,6 +183,7 @@ body {
 
 .navigation {
   display: flex;
+  position: fixed;
   justify-content: space-around;
   height: 91px;
   margin: 0 auto;
