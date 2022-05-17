@@ -25,12 +25,14 @@
 // section1 home page
 
 .welcomeContent{
-height: 400px;
+    margin-top: 130px;
+    height: 400px;
 .image1{
     height: 400px;   
 }
 }
 .welcomePara{
+    margin-top: 100px;
     height: 400px;  
     font-family: 'Work Sans';
     font-style: normal;
@@ -43,6 +45,7 @@ height: 400px;
     justify-content: space-around;
     text-align: center;
     .viewButton{
+        width: 35%;
         background-color: $color-button;
         height: 40px;
         font-family: 'Work Sans';
@@ -58,17 +61,25 @@ height: 400px;
 
 // section 2 My project
 
+#myProject{
+    margin-top: 150px;
+    margin-bottom: 40px;
+  }
+
 .headerClass{
-    margin-top: 20px;
-    margin-bottom: 10px;
-    height: 85px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    // height: 85px;
     font-family: 'Work Sans';
-    font-weight: 700;
-    font-size: 55px;
+    // font-weight: 700;
+    // font-size: 55px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #116099;
+    color: #4489bb;
+    height: 40px;
+    font-weight: 700;
+    font-size: 40px;
     // max-width: 1200px;
 }
 
@@ -79,10 +90,17 @@ height: 400px;
     font-weight: 700;
     font-size: 30px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
     text-align: center;
     align-items: center;
     color: $color-white;
+    &__content{
+        margin-right: 5%;
+    }
+}
+.techLogo{
+    height: 45px;
 }
 .imageMobile{
     width: 50%;
@@ -97,10 +115,10 @@ height: 400px;
     
 }
 }
-.frame3{
-    height: 400px;
-    // transform: rotate(12.68deg);
-}
+// .frame3{
+//     height: 400px;
+    
+// }
 
 // About Me section
 

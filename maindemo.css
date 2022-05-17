@@ -29,6 +29,7 @@
 }
 
 .welcomeContent {
+  margin-top: 130px;
   height: 400px;
 }
 .welcomeContent .image1 {
@@ -36,6 +37,7 @@
 }
 
 .welcomePara {
+  margin-top: 100px;
   height: 400px;
   font-family: "Work Sans";
   font-style: normal;
@@ -49,6 +51,7 @@
   text-align: center;
 }
 .welcomePara .viewButton {
+  width: 35%;
   background-color: #1774A8;
   height: 40px;
   font-family: "Work Sans";
@@ -58,17 +61,29 @@
   text-decoration: none;
 }
 
+#myProject{
+  margin-top: 150px;
+  margin-bottom: 40px;
+}
+
 .headerClass {
-  margin-top: 20px;
-  margin-bottom: 10px;
-  height: 85px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  /* height: 85px; */
   font-family: "Work Sans";
-  font-weight: 700;
-  font-size: 55px;
+  /* font-weight: 700; */
+  /* font-size: 55px; */
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #116099;
+  color: #4489bb;
+  height: 40px;
+  font-weight: 700;
+  font-size: 40px;
+  
+}
+.techLogo{
+  height: 45px;
 }
 
 .dada {
@@ -78,10 +93,15 @@
   font-weight: 700;
   font-size: 30px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
   text-align: center;
   align-items: center;
   color: #fefefe;
+  
+}
+.dada__content{
+  margin-right: 5%;
 }
 
 .imageMobile {
@@ -94,10 +114,7 @@
 }
 .imageMobile .frame2 {
   height: 400px;
-}
-
-.frame3 {
-  height: 400px;
+  /* transform: rotate(12.68deg); */
 }
 
 .aboutFlex {
@@ -182,16 +199,18 @@ body {
 }
 
 .navigation {
+  background-color: #2174af;
+  width: 100%;
   display: flex;
-  position: fixed;
   justify-content: space-around;
+  position: fixed;
   height: 91px;
   margin: 0 auto;
 }
 
 .welcomePageContent {
   height: 400px;
-  margin-top: 20px;
+  /* margin-top: 40px; */
   margin-bottom: 10px;
   display: flex;
   justify-content: space-around;
@@ -275,11 +294,7 @@ body {
     font-size: 10px;
   }
 }
-.headerClass {
-  height: 40px;
-  font-weight: 700;
-  font-size: 30px;
-}
+
 
 @media (max-width: 850px) {
   .projects {

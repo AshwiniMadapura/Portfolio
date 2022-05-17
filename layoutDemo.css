@@ -1,0 +1,48 @@
+body {
+  background-color: black;
+}
+
+.navigation {
+  background-color: #2174af;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  height: 91px;
+  margin: 0 auto;
+}
+
+.welcomePageContent {
+  height: 400px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.projects {
+  height: 500px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.aboutMeSection {
+  height: 500px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.IndustryExperience {
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.CotactSection {
+  height: 200px;
+}

@@ -9,16 +9,23 @@ body{
 // }
 
 .navigation{
+    // display: flex;
+   
+    // justify-content: space-around;
+    
+    // height: 91px;
+    // margin: 0 auto;
+    background-color: #2174af;
+    width: 100%;
     display: flex;
-    // position: fixed;
     justify-content: space-around;
-    // max-width: 1200px;
+    position: fixed;
     height: 91px;
     margin: 0 auto;
 }
 .welcomePageContent{
     height: 400px;
-    margin-top: 20px;
+    // margin-top: 20px;
     margin-bottom: 10px;
     // max-width: 1200px;
     display: flex;

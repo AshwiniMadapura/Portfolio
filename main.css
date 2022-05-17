@@ -61,7 +61,7 @@
   text-decoration: none;
 }
 
-#myProject{
+#myProject {
   margin-top: 150px;
   margin-bottom: 40px;
 }
@@ -69,10 +69,7 @@
 .headerClass {
   margin-top: 30px;
   margin-bottom: 30px;
-  /* height: 85px; */
   font-family: "Work Sans";
-  /* font-weight: 700; */
-  /* font-size: 55px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -80,10 +77,6 @@
   height: 40px;
   font-weight: 700;
   font-size: 40px;
-  
-}
-.techLogo{
-  height: 45px;
 }
 
 .dada {
@@ -98,10 +91,13 @@
   text-align: center;
   align-items: center;
   color: #fefefe;
-  
 }
-.dada__content{
+.dada__content {
   margin-right: 5%;
+}
+
+.techLogo {
+  height: 45px;
 }
 
 .imageMobile {
@@ -114,7 +110,6 @@
 }
 .imageMobile .frame2 {
   height: 400px;
-  /* transform: rotate(12.68deg); */
 }
 
 .aboutFlex {
@@ -210,7 +205,6 @@ body {
 
 .welcomePageContent {
   height: 400px;
-  /* margin-top: 40px; */
   margin-bottom: 10px;
   display: flex;
   justify-content: space-around;
@@ -294,7 +288,11 @@ body {
     font-size: 10px;
   }
 }
-
+.headerClass {
+  height: 40px;
+  font-weight: 700;
+  font-size: 30px;
+}
 
 @media (max-width: 850px) {
   .projects {
