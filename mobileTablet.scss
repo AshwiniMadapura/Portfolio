@@ -6,9 +6,24 @@
         font-weight: 500;
         font-size: 15px;
     }
+
+}
+#myProject{
+    margin-top: 20px;
+}
+.projects{
+    height:500px;
 }
 }
 @media (max-width:600px){
+    .headerClass{
+        margin-top: 2px;
+        margin-bottom: 6px;
+    }
+    #myProject{
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
     .welcomePageContent{
         height: 250px;
         margin-top: 10px;
@@ -60,7 +75,7 @@
     // Myprojects
     @media (max-width:850px){
     .projects{
-        height: 450px;
+        height: 500px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -83,7 +98,7 @@
             align-items: center;
             .frame2{
             height: 200px;
-            transform: rotate(12.68deg);
+            // transform: rotate(12.68deg);
         }
         }
     }
